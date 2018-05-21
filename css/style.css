@@ -1,0 +1,45 @@
+body {
+  margin:0;
+  background:#c1c2c6;
+}
+/*
+.topbar {
+  height:100px;
+  width:100%;
+  background:red;
+}
+
+.imagecontainer {
+  display: flex;
+  flex-flow: row;
+  border:5px solid orange;
+  height:700px;
+  width: 100%;
+}
+
+.imagecontainer div {
+  border: 5px black solid;
+  background: blue;
+  height:100%;
+  width:100%;
+}
+
+.loginform {
+  background: green;
+  border: 3px black solid;
+  width: 80px;
+  height: 100px;
+}
+
+
+footer {
+  height: 40px;
+  width: 100%;
+  background: red;
+} */
+
+.loginform {
+  background: white;
+  height: 200px;
+  width:200px;
+}
