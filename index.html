@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
   <title>Instagram</title>
 </head>
 <body>
@@ -14,31 +14,89 @@
   </header>
 
   <main>
-    <div class="imagecontainer">
-      <div class="image">image
-        <img src="https://source.unsplash.com/random/200x200" alt="Image">
-      </div>
-      <div class="loginform">
-        <p>Sing up to see photos and videos from your friends.</p>
-        <div class="loginbutton">Login with Facebook</div>
-        <p> ----------- OR ----------- </p>
-        <form class="login">
-          <input type="email"  value="Mobile Number or Email">
-          <input type="name"  value="Full Name">
-          <input type="username"  value="Username">
-          <input type="password"  value="Paassword">
-        </form>
-        <p>Signup</p>
-      </div>
+    <!-- Left -->
+    <div class="flex-container">
+        <div class="left">image
+          <img src="images/image.jpg" alt="Image">
+        </div>
 
+
+      <!-- Right -->
+
+      <div class="right">
+        <!-- Right Top -->
+        <!-- Logo, slogan, FB button, form, terms and conditions -->
+        <div class="rightflex">
+          <div class="righttop">
+            <div class="logo">
+              <img src="images/instagram-1.svg" alt="Logo">
+            </div>
+
+            <div class="slogan">
+              <p>Sign up to see photos and videos from your friends.</p>
+            </div>
+
+            <div class="fbbuttton">
+              <button type="button" name="button">Log in with Facebook</button>
+            </div>
+
+            <form class="login">
+              <input type="email" class="input-box" value="Mobile Number or Email">
+              <input type="name" class="input-box" value="Full Name">
+              <input type="username" class="input-box" value="Username">
+              <input type="email" class="input-box" value="Password">
+            </form>
+
+            <div class="fbbuttton">
+              <button type="button" name="button">Sign up</button>
+            </div>
+
+            <div class="terms">
+              <p>By Signing up, you agree to our <span>Terms & Privacy Policy.</span></p>
+            </div>
+          </div>
+
+          <!-- Right Middle -->
+          <!-- Have an account? section -->
+          <div class="account">
+            <p>Have an account? <a href="#">Log In</a></p>
+          </div>
+
+
+          <!-- Right bottom -->
+          <!-- App Store / Play Store links -->
+          <p>Get the app.</p>
+          <div class="app">
+
+            <img src="images/applelogo.png" alt="Apple logo">
+            <img src="images/googleplay.png" alt="Google play" >
+          </div>
+        </div>
+      </div>
     </div>
-
 
   </main>
 
-  <footer>
-    <div>Footer</div>
-  </footer>
+<!--  Footer -->
+    <footer>
+      <div class="footer">
+        <div class="links">
+          <a href="#">about us</a>
+          <a href="#">support</a>
+          <a href="#">blog</a>
+          <a href="#">press</a>
+          <a href="#">api</a>
+          <a href="#">jobs</a>
+          <a href="#">privacy</a>
+          <a href="#">terms</a>
+          <a href="#">directory</a>
+          <a href="#">language</a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2017 INSTAGRAM</p>
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>
